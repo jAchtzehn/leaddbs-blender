@@ -13,7 +13,7 @@ with open(json_filename) as f:
 	elspecs = json.load(f)
 
 # options
-electrodes = ['example electrode']
+electrodes = ['example_non_directional_electrode']
 # electrodes = elspecs.keys() # all electrodes present in json sidecar
 nr_vertices = 72  # base number for mesh quality (360 and size of segments should be even dividable for segmented electrodes!)
 
