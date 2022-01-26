@@ -456,7 +456,7 @@ for e, electrode in enumerate(electrodes):
 	# get relevant info
 	radius_lead = elspec_electrode['lead_diameter'] / 2  # radius of the lead
 	radius_inner = radius_lead / 2  # inner radius
-	nr_elements = elspec_electrode['numel']  # how many elements (one element is either a contact or a group of segmented contacts, the tip is always an element)
+	nr_elements = elspec_electrode['num_level']  # how many elements (one element is either a contact or a group of segmented contacts, the tip is always an element)
 	contact_spacing = elspec_electrode['contact_spacing']  # spacing between contacts (assumed to be not contact specific for now)
 	total_length = elspec_electrode['lead_length']
 
