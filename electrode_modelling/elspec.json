@@ -30,7 +30,6 @@
 		}
 	},
 	"example_directional_electrode": {
-		"matfname": "boston_vercise_directed",
 		"lead_diameter": 1.3,
 		"lead_length": 60,
 		"contact_spacing": [0.5],
