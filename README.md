@@ -1,6 +1,6 @@
 # leaddbs-blender
 
-This repository collects utility scripts to render DBS 3D scenes with Blender. In the first release (0.1), a script is included to autmatically create a 3D model of a DBS electrode (non-directional or directional) based on specifications in a .json file.
+This repository collects utility scripts to render DBS 3D scenes with Blender. In the first release (v0.2), a script is included to autmatically create a 3D model of a DBS electrode (non-directional or directional) based on specifications in a .json file.
 
 ## Requirements
 
