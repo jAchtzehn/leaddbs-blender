@@ -1,0 +1,67 @@
+{
+	"example_non_directional_electrode": {
+		"lead_diameter": 1.27,
+		"lead_length": 60,
+		"contact_spacing": [0.5],
+		"numel": 5,
+		"tipiscontact": 0,
+		"isdirected": 0,
+		"contact_specification": {
+			"0": {
+				"segmented": 0,
+				"length": 1.5
+			},
+			"1": {
+				"segmented": 0,
+				"length": 1.5
+			},
+			"2": {
+				"segmented": 0,
+				"length": 1.5
+			},
+			"3": {
+				"segmented": 0,
+				"length": 1.5
+			},
+			"4": {
+				"segmented": 0,
+				"length": 1.5
+			}
+		}
+	},
+	"example_directional_electrode": {
+		"matfname": "boston_vercise_directed",
+		"lead_diameter": 1.3,
+		"lead_length": 60,
+		"contact_spacing": [0.5],
+		"numel": 4,
+		"tipiscontact": 1,
+		"isdirected": 1,
+		"marker_pos": 9.5,
+		"marker_length": 3,
+		"marker_startangle": 50,
+		"marker_size": 190,
+		"contact_specification": {
+			"0": {
+				"segmented": 0,
+				"length": 1.5
+			},
+			"1": {
+				"segmented": 1,
+				"length": 1.5,
+				"num_segments": 3,
+				"size_segments": 70
+			},
+			"2": {
+				"segmented": 1,
+				"length": 1.5,
+				"num_segments": 3,
+				"size_segments": 70
+			},
+			"3": {
+				"segmented": 0,
+				"length": 1.5
+			}
+		}
+	}
+}
